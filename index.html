@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+        <meta name="viewport" contents="width=device-width,initial-scale=1.0">
+        <title>Number Guessing</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+<body>
+    
+    <div class="box">
+        <center><h1>Number Guess Application</h1>
+        <p class="ed" >Rule: Select a number between 1 to 100 and guess it !!!</p><br>
+
+        <label><b>Guess a number : </b></label><input type="number" id="num" placeholder="guess the number"><br><br><br>
+        <div id=res></div><br>
+        <div class="main">
+        <input type="submit" value="CHECK" id="check" onclick="check()">
+        <input type="submit" value="RESET" id="reset" onclick="window.location.reload()"></center>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+        background-image: url('https://images.unsplash.com/photo-1628883328405-34fbe848bed1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFzdGVsJTIweWVsbG93fGVufDB8fDB8fHww&w=1000&q=80');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+       
+    }
+
+.box{
+    margin: auto;
+    margin-top: 8%;
+    height:350px;
+    width:600px;
+    border: 2px solid rgb(248, 179, 50);
+    border-radius: 20px;
+    box-shadow: 5px 4px 4px 4px rgb(248, 193, 91) ;
+}
+h1{
+    font-size: 40px;
+    font-family: "Footlight MT Light";
+}
+.ed{
+    font-size: 23px;
+    font-family: "Footlight MT Light";
+}
+#num{
+    font-size: 15px;
+} 
+label{
+    font-size: 20px;
+}
+#check,#reset{
+    height:45px;
+    width:75px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(247, 183, 64);
+    background-color: rgb(250, 191, 82);
+    margin-left: 9px;
+}
+
